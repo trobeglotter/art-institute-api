@@ -1,5 +1,6 @@
 Art Institute of Chicago restAPI App
-Link: XXX
+Link: https://trobeglotter.github.io/art-institute-api/
+
 
 HTML | CSS | Javascript
 API Documentation
