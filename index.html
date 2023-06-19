@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>AIC Thumbnail Version</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="header">Art Institute of Chicago API</h1>
+        </header>
+        <div class="control-panal-wrapper">
+            <div class="page-control-wrapper">
+                <div class="page-turn-wrapper">
+                    <button id="page-turn-prev">Prev Page</button>
+                    <span id="pageNumber">1</span>
+                    <button id="page-turn-next">Next Page</button>
+                </div>
+                <form id="submit-page-number" action="">
+                    <input id="number-field" type="text" name="" id="" placeholder="Pages 2-9897">
+                    <button id="search-button" type="submit">Search</button>
+                </form>
+            </div>
+            <p class="use-instructions">Click on an image to see more details and to expand the image.</p>
+        </div>
+        <div class="api-data" id="api-data"></div>
+        <!-- detail-tile popup is hidden -->
+        <div id="detail-tile"></div>
+    </div>
+    <script src="api-posts-builder.js">
+    </script>
+</body>
+
+</html>
