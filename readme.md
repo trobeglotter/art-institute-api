@@ -1,4 +1,4 @@
-Art Institute of Chicago restAPI App\
+Art Institute of Chicago Art Collection implimenting AIC restAPI\
 Link: https://trobeglotter.github.io/art-institute-api/
 
 
